@@ -53,12 +53,15 @@ pip install mamba_ssm
 ## Usage
 
 1. Clone the repository:
+
    !git clone https://github.com/Itamar-Horowitz/recaptcha-v2-decryptor.git
 
 3. Navigate to the model folder:
+
    cd models
 
 5. Run the desired model:
+
    XXX.ipynb
 
 ## References
