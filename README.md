@@ -35,8 +35,6 @@ table
 
 ## Prerequisites
 
-## Prerequisites
-
 Before using this project, ensure you have installed the following libraries and dependencies:
 
 | Library                 | Version                  |
