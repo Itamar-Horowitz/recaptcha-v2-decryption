@@ -47,7 +47,7 @@ Additionally, DINOv2 uses a contrastive learning technique to distinguish betwee
 
 MambaVision is a cutting-edge model that employs a combination of self-attention mechanisms and mixer blocks to process visual data. It introduces an innovative selective scan algorithm, which filters out irrelevant information, along with a hardware-aware algorithm to optimize memory and processing performance. Unlike DINOv2, MambaVision relies on transfer learning to adapt pre-trained models for specific tasks, which can make it more suitable for cases where fine-tuning on smaller datasets is necessary.
 
-One of MambaVision's core strengths is its ability to model global contexts in images, thanks to its hierarchical structure and selective SSM (State-Space Model). The architecture includes a mix of self-attention paths and convolutional layers, creating a flexible model capable of handling complex visual tasks. Despite its strong architecture, MambaVision may require careful optimization during training, especially when using additional techniques like LowRank Adaptation layers, which can increase complexity and training time.
+One of MambaVision's core strengths is its ability to model global contexts in images, thanks to its hierarchical structure and selective SSM (State-Space Model). The architecture includes a mix of self-attention paths and convolutional layers, creating a flexible model capable of handling complex visual tasks.
 
 ## Results
 
