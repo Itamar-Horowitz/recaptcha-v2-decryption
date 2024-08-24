@@ -15,6 +15,7 @@
   * [References](#references)
 
 ## Abstract
+
 Ensuring the security of online platforms against automated attacks is essential for protecting sensitive data on websites. ReCAPTCHA v2, developed by Google, is widely used to differentiate human users from bots and defend against various malicious activities. This report examines the performance of ReCAPTCHA v2 by applying advanced machine learning techniques. Specifically, we explore the effectiveness of transfer learning with MambaVision and compare it with the DINOv2 model, which does not use transfer learning. Our analysis reveals that DINOv2 outperforms MambaVision and other models in solving ReCAPTCHA V2 challenges, demonstrating its potential to significantly enhance ReCAPTCHA’s security capabilities.
 
 ## Dataset
@@ -40,7 +41,7 @@ The dataset used was taken from Kaggle, containing 40,022 images across 11 diffe
 
 DINOv2 is a self-supervised learning framework that builds on the original DINO (Distillation with No Labels) approach, leveraging Vision Transformers (ViTs) to extract meaningful features from images without requiring labeled data. The key innovations of DINOv2 include multi-crop training, which allows the model to handle images at various resolutions, and momentum encoders, which help the model maintain stable representations across training iterations. By focusing on these methods, DINOv2 is able to outperform traditional convolutional networks and supervised transformers in tasks such as image classification, object detection, and segmentation.
 
-Additionally, DINOv2 uses a contrastive learning technique to distinguish between similar and dissimilar images in the feature space, which enhances its ability to categorize images accurately. With its powerful self-distillation process, DINOv2 can generate rich visual representations, making it highly effective for complex vision tasks. This model, while computationally efficient, has demonstrated significant performance improvements over other models without the need for extensive fine-tuning or transfer learning.
+Additionally, DINOv2 uses a contrastive learning technique to distinguish between similar and dissimilar images in the feature space, which enhances its ability to categorize images accurately. With its powerful self-distillation process, DINOv2 can generate rich visual representations, making it highly effective for complex vision tasks.
 
 ## MambaVision
 
