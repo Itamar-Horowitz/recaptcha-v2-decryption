@@ -42,7 +42,7 @@ Before using this project, ensure you have installed the following libraries and
 | Library                 | Version / Requirement                                                          |
 |-------------------------|--------------------------------------------------------------------------------|
 | Python                  | 3.5.5 or later                                                                 |
-| torch                   | 2.1.2 or later (for some features: 2.0.0)                                      |
+| torch                   | 2.1.2 or later                                                                 |
 | torchvision             | 0.15.0                                                                         |
 | causal-conv1d           | Latest (Check installation instructions)                                        |
 | mamba-ssm               | Latest (Check installation instructions)                                        |
