@@ -52,11 +52,11 @@ One of MambaVision's core strengths is its ability to model global contexts in i
 
 The table below summarizes the performance of the models used in this project:
 
-| Model        | Technique | Test Accuracy |
-|--------------|-----------|---------------|
-| ResNet       | DoRA      | 77.2%         |
-| MambaVision  | DoRA      | 81.9%         |
-| DINOv2       | Optuna    | 96.1%         |
+| Model        | Technique                      | Test Accuracy |
+|--------------|--------------------------------|---------------|
+| DINOv2       | Hyperparameter tuning (Optuna) | 96.1%         |
+| MambaVision  | fine-tuning (DoRA)             | 81.9%         |
+| ResNet       | fine-tuning (DoRA)             | 77.2%         |
 
 The chart below shows the training and validation accuracy for each epoch:
 
