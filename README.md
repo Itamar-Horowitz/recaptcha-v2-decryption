@@ -11,7 +11,6 @@
   * [MambaVision](#mambavision)
   * [Results](#results)
   * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
   * [Usage](#usage)
   * [References](#references)
 
@@ -44,11 +43,6 @@ table
 - pandas
 - numpy
 - GPU
-
-## Installation
-
-To install the necessary dependencies, run:
-pip install mamba_ssm
 
 ## Usage
 
