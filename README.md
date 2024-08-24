@@ -11,7 +11,7 @@
   * [MambaVision](#mambavision)
   * [Results](#results)
   * [Prerequisites](#prerequisites)
-  * [Usage](#usage)
+  * [Quick start](#quickstart)
   * [References](#references)
 
 ## Abstract
