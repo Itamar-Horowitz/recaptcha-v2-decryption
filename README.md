@@ -95,9 +95,9 @@ Before using this project, ensure you have installed the following libraries and
    ```bash
    cd ./models
 
-3. Run the desired model:
+3. Run the desired model (example):
    ```bash
-   XXX.ipynb
+   jupyter notebook DINOv2Model.ipynb
 
 ## References
 
