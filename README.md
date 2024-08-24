@@ -90,7 +90,7 @@ Before using this project, ensure you have installed the following libraries and
 | h5py                    | 3.10.0                |
 | librosa                 | 0.10.2                |
 
-## Usage
+## Quick start
 
 1. Clone the repository:
    ```bash
