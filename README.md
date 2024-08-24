@@ -39,15 +39,15 @@ table
 
 Before using this project, ensure you have installed the following libraries and dependencies:
 
-| Library                 | Version / Requirement                                                          |
+| Library                 | Version                                                                        |
 |-------------------------|--------------------------------------------------------------------------------|
 | Python                  | 3.5.5 or later                                                                 |
 | torch                   | 2.1.2 or later                                                                 |
 | torchvision             | 0.15.0                                                                         |
 | causal-conv1d           | Latest (Check installation instructions)                                        |
 | mamba-ssm               | Latest (Check installation instructions)                                        |
-| timm                    | 0.9.2 or later                                                                 |
-| tensorboardX            | 2.6 or later                                                                   |
+| timm                    | >=0.9.2 or later                                                                 |
+| tensorboardX            | >=2.6 or later                                                                   |
 | einops                  | 0.6.1 or later                                                                 |
 | transformers            | 4.42.3 --extra-index-url https://download.pytorch.org/whl/cu117                 |
 | omegaconf               | 2.3.0 or later                                                                 |
