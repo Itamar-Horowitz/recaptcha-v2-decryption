@@ -91,12 +91,12 @@ Before using this project, ensure you have installed the following libraries and
    ```bash
    git clone https://github.com/Itamar-Horowitz/recaptcha-v2-decryptor.git
 
-2. Navigate to the model folder:
-
-   cd models
+2. Navigate to the models folder:
+   ```bash
+   cd ./models
 
 3. Run the desired model:
-
+   ```bash
    XXX.ipynb
 
 ## References
