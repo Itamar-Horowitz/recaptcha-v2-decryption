@@ -39,31 +39,25 @@ table
 
 Before using this project, ensure you have installed the following libraries and dependencies:
 
-| Library                 | Version                                                                        |
-|-------------------------|--------------------------------------------------------------------------------|
-| Python                  | 3.5.5 or later                                                                 |
-| torch                   | 2.1.2 or later                                                                 |
-| torchvision             | 0.15.0                                                                         |
-| causal-conv1d           | Latest (Check installation instructions)                                        |
-| mamba-ssm               | Latest (Check installation instructions)                                        |
-| timm                    | >=0.9.2 or later                                                                 |
-| tensorboardX            | >=2.6 or later                                                                   |
-| einops                  | 0.6.1 or later                                                                 |
-| transformers            | 4.42.3 --extra-index-url https://download.pytorch.org/whl/cu117                 |
-| omegaconf               | 2.3.0 or later                                                                 |
-| torchmetrics            | 0.10.3                                                                         |
-| fvcore                  | 0.1.5.post20221221 or later                                                    |
-| iopath                  | 0.1.10 or later                                                                |
-| xformers                | 0.0.18                                                                         |
-| submitit                | 1.4.5 or later                                                                 |
-| cuml-cu11               | Latest --extra-index-url https://pypi.nvidia.com                                |
-| kornia                  | 0.7.3                                                                          |
-| matplotlib              | 3.7.2                                                                          |
-| numpy                   | 1.23.5                                                                         |
-| pandas                  | 2.1.1                                                                          |
-| seaborn                 | 0.13.0                                                                         |
-| h5py                    | 3.10.0                                                                         |
-| librosa                 | 0.10.2                                                                         |
+| Library                 | Version             |
+|-------------------------|---------------------|
+| Python                  | 3.5.5 or later      |
+| torch                   | 2.1.2 or later      |
+| torchvision             | 0.15.0              |
+| causal-conv1d           | 1.4.0               |
+| mamba-ssm               | 2.2.2               |
+| timm                    | 0.9.2 or later      |
+| tensorboardX            | 2.6 or later        |
+| einops                  | 0.6.1 or later      |
+| transformers            | 4.42.3              |
+| torchmetrics            | 0.10.3              |
+| kornia                  | 0.7.3               |
+| matplotlib              | 3.7.2               |
+| numpy                   | 1.23.5              |
+| pandas                  | 2.1.1               |
+| seaborn                 | 0.13.0              |
+| h5py                    | 3.10.0              |
+| librosa                 | 0.10.2              |
 
 ## Usage
 
