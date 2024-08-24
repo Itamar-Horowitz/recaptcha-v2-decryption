@@ -60,7 +60,7 @@ The chart below shows the training and validation accuracy for each epoch:
   <img width="500" src="path_to_chart_image">
 </p>
 
-The results clearly show that DINOv2 is the most effective model for solving ReCAPTCHA challenges, even without using transfer learning. Its ability to process unlabeled data and generate rich visual representations allows it to surpass MambaVision and ResNet in accuracy. While MambaVision showed solid performance, it required more fine-tuning and was more sensitive to low-quality data compared to DINOv2. Future work could explore further fine-tuning techniques for MambaVision and investigate the reasons behind DINOv2's superior performance in greater detail.
+The results clearly show that DINOv2 is the most effective model for solving ReCAPTCHA challenges, even without using transfer learning. Its ability to process unlabeled data and generate rich visual representations allows it to surpass MambaVision and ResNet in accuracy. While MambaVision showed solid performance, it required more fine-tuning and was more sensitive to low-quality data compared to DINOv2.
 
 ## Prerequisites
 
