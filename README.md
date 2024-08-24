@@ -1,4 +1,4 @@
-# ReCAPTCHA V2 decryption using DINOv2 and Mamba-Vision 
+# ReCAPTCHA V2 decryption using DINOv2 and MambaVision 
 
 <p align="center">
   <img width="500" src="https://github.com/Itamar-Horowitz/recaptcha-v2-decryptor/blob/main/images/google_recaptcha.png">
@@ -43,7 +43,7 @@ DINOv2 is a self-supervised learning framework that builds on the original DINO 
 
 Additionally, DINOv2 uses a contrastive learning technique to distinguish between similar and dissimilar images in the feature space, which enhances its ability to categorize images accurately. With its powerful self-distillation process, DINOv2 can generate rich visual representations, making it highly effective for complex vision tasks.
 
-## Mamba-Vision
+## MambaVision
 
 MambaVision is a cutting-edge model that employs a combination of self-attention mechanisms and mixer blocks to process visual data. It introduces an innovative selective scan algorithm, which filters out irrelevant information, along with a hardware-aware algorithm to optimize memory and processing performance. Unlike DINOv2, MambaVision relies on transfer learning to adapt pre-trained models for specific tasks, which can make it more suitable for cases where fine-tuning on smaller datasets is necessary.
 
@@ -56,7 +56,7 @@ The table below summarizes the performance of the models used in this project:
 | Model        | Technique                      | Test Accuracy |
 |--------------|--------------------------------|---------------|
 | DINOv2       | Hyperparameter tuning (Optuna) | 96.1%         |
-| Mamba-Vision  | Fine-tuning (DoRA)             | 81.9%         |
+| MambaVision  | Fine-tuning (DoRA)             | 81.9%         |
 | ResNet       | Fine-tuning (DoRA)             | 77.2%         |
 
 The results clearly show that DINOv2 is the most effective model for solving ReCAPTCHA challenges, even without using transfer learning. Its ability to process unlabeled data and generate rich visual representations allows it to surpass MambaVision and ResNet in accuracy. While MambaVision showed solid performance, it required more fine-tuning and was more sensitive to low-quality data compared to DINOv2.
