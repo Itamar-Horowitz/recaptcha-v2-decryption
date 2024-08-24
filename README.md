@@ -101,8 +101,6 @@ Before using this project, ensure you have installed the following libraries and
 
 ## References
 
-## References
-
 - MambaVision: [https://github.com/NVlabs/MambaVision](https://github.com/NVlabs/MambaVision)
 - DINOv2: [https://github.com/facebookresearch/dinov2](https://github.com/facebookresearch/dinov2)
 - Cracking ReCAPTCHA with CNNs: [https://medium.com/analytics-vidhya/cracking-recaptchas-with-cnns-and-transfer-learning-edc26ab675ec](https://medium.com/analytics-vidhya/cracking-recaptchas-with-cnns-and-transfer-learning-edc26ab675ec)
