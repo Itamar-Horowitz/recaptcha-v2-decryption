@@ -57,7 +57,7 @@ The table below summarizes the performance of the models used in this project:
 
 | Model        | Technique                      | Test Accuracy |
 |--------------|--------------------------------|---------------|
-| DINOv2       | Hyperparameter tuning (Optuna) | 95.9%         |
+| DINOv2       | Hyperparameters tuning (Optuna) | 95.9%         |
 | MambaVision  | Fine-tuning (DoRA)             | 83.8%         |
 | ResNet18     | Fine-tuning (DoRA)             | 77.8%         |
 
