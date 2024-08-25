@@ -21,6 +21,7 @@ Ensuring the security of online platforms against automated attacks is essential
 ## Dataset
 
 The dataset used was taken from Kaggle, containing 40,022 images across 11 different categories. The dataset was split into 70% for training, and 15% each for validation and testing. Additionally, normalization procedures were applied to the features, and images were scaled to 100x100 pixels.
+Here is a glance at our dataset:
 
 | Class          | Train | Validation | Test | Total |
 |----------------|-------|------------|------|-------|
