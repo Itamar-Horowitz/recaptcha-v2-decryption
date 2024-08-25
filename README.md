@@ -20,9 +20,9 @@ In today’s digital world, safeguarding online platforms is increasingly vital 
 
 ## Dataset
 
-The dataset used was taken from Kaggle, containing 40,022 images across 11 different categories. The dataset was split into 70% for training, and 15% each for validation and testing. Additionally, normalization procedures were applied to the features, and images were scaled to 100x100 pixels.
+The dataset utilized for this project was sourced from Kaggle and includes 40,022 images categorized into 11 distinct classes relevant to ReCAPTCHA challenges. We organized the dataset into training, validation, and testing sets, allocating 70% for training, 15% for validation, and 15% for testing. Normalization procedures were applied to ensure that features followed a normal distribution, and images were resized to 98x98 pixels to match the input requirements of our models.
 
-Here is a glance at our dataset:
+Below is an overview of our dataset distribution:
 
 | Class          | Train | Validation | Test | Total |
 |----------------|-------|------------|------|-------|
