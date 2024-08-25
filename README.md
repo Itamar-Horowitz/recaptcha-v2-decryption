@@ -16,7 +16,7 @@
 
 ## Abstract
 
-The ability to protect websites from various automated attacks is crucial for businesses, governments, and any other entities with websites containing sensitive data. ReCAPTCHA serves as a security measure to defend against these malicious threats. Our project aims to solve the puzzles posed by ReCAPTCHA v2 by applying advanced machine learning techniques. Specifically, we explore the effectiveness of transfer learning with MambaVision and compare it with the DINOv2 model, which does not rely on transfer learning. Our analysis reveals that DINOv2 outperforms MambaVision and other models in solving ReCAPTCHA v2 challenges, demonstrating its capability to produce robust, high-performance visual features for computer vision tasks without the need for transfer learning.
+In today’s digital world, safeguarding online platforms is increasingly vital due to the rise in automated attacks. ReCAPTCHA v2, a widely used security tool from Google, helps distinguish between human users and bots, thus protecting websites from various malicious activities. To assess the effectiveness of ReCAPTCHA v2 and identify potential vulnerabilities, our project investigates advanced machine learning techniques for solving ReCAPTCHA v2 challenges. We compare DINOv2, optimized through hyperparameter tuning, with MambaVision, which utilizes transfer learning. Our analysis reveals that DINOv2 outperforms MambaVision and other models in solving ReCAPTCHA v2 challenges, demonstrating its ability to produce robust, high-performance visual features for computer vision tasks without relying on transfer learning.
 
 ## Dataset
 
