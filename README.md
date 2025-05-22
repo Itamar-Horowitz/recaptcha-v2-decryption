@@ -1,4 +1,4 @@
-# ReCAPTCHA V2 solver with DINOv2 and MambaVision 
+# ReCAPTCHA V2 solver using DINOv2 and MambaVision 
 
 <p align="center">
   <img width="500" src="https://github.com/Itamar-Horowitz/recaptcha-v2-decryptor/blob/main/images/google_recaptcha.png">
@@ -91,7 +91,7 @@ Before using this project, ensure you have installed the following libraries and
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Itamar-Horowitz/recaptcha-v2-solver.git
+   git clone https://github.com/Itamar-Horowitz/deep-recaptcha-solver.git
 
 2. Navigate to the models folder:
    ```bash
